@@ -1,0 +1,11 @@
+Crie um site que tenha 5 páginas, 1 página com links 
+para as outras páginas, e 1 página para cada um dos 
+seguintes exercícios:
+Exercício da Pg. 210 do slide
+Exercício da Pg. 231 do slide
+Exercício da Pg. 246 do slide
+Exercício da Pg. 263 do slide
+
+OBS: a entrega deve ser feita anexando 2 links 
+(1 link para o seu código [repositório github] - 1 link 
+para o site publicado [vercel])

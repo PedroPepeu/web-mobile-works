@@ -1,0 +1,20 @@
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shoe {
+    float: left;
+    width: 20%;
+}
+
+img {
+    background-color: green;
+}
+
+.store_name {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
