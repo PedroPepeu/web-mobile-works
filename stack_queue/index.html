@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pepeu</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="number" placeholder="Digite um numero...">
+        <input type="submit" id="add_num" value="ADICIONAR">
+        <input type="submit" id="rem_num" value="REMOVER">
+        <input type="submit" id="clear_ls" value="LIMPAR">
+    </div>
+    <div>
+        <input type="radio" id="stk" name="tp" onclick="test()" onclick="change()" checked> pilha
+        <input type="radio" id="que" name="tp" onclick="test()" onclick="change()"> fila
+    </div>
+    <hr>
+    <p id="list"></p>
+</body>
+</html>
