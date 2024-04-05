@@ -18,18 +18,29 @@ function test() {
 
 function redoList() {
     test();
-    for(let i = 0; i < list.length(); i++) {
-        document.getElementById('list').innerHTML+=' '+list[i];
+    if(check()) {
+        for(let i = list.length-1; i >= 0; i--) {
+            document.getElementById('list').innerHTML+=' '+list[i];
+        }
+    } else {
+        for(let i = 0; i < list.length; i++) {
+            document.getElementById('list').innerHTML+=' '+list[i];
+        }
     }
 }
 
 document.getElementById('clear_ls').addEventListener("click", function() {
     document.getElementById('list').innerHTML = '';
+    list = [];
 });
 
 document.getElementById('rem_num').addEventListener("click", function() {
     var num = document.getElementById('number').value;
-    list.remove(num); // create function remove from list
+    for(var i = 0; i < list.length; i++) {
+        if(list[i] == num) {
+            list.splice(i, 1);
+        }
+    }
     redoList();
 });
 
