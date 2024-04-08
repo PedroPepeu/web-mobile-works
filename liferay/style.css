@@ -3,6 +3,27 @@ body {
     background-size: cover;
 }
 
+.name-txt {
+    border-radius: 10px;
+}
+
+.color-inpu {
+    border: 0;
+}
+
+button {
+    border-radius: 10px;
+    height: 30px;
+    outline-color: transparent;
+}
+
+button:hover {
+    background-color: #367ead;
+    transition: 0.2;
+    border-color: #367ead;
+    color: white;
+}
+
 .center {
     display: flex;
     justify-content: center;
